@@ -160,10 +160,10 @@
   <div class="flex flex-col justify-center items-center ">
     <h5 class="text-base font-bold px-2.5 py-1.5"><i class="fa-solid fa-arrow-right"></i>How We Work</h5>
     <h1 class="text-4xl font-bold pt-7">Our Works Process</h1>
-    <p class="text-base font-medium text-stone-500 pt-6 ">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    <p class="text-base font-medium text-stone-500 pt-6 pl-7">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
   </div>
 
-  <div class="flex gap-4 pt-8 flex-col md:flex-row lg:flex-row">
+  <div class="flex gap-4 pt-8 flex-col md:flex-wrap lg:flex-row">
     <div class="card bg-pink-200 text-primary-content w-72 h-56	">
       <div class="card-body ">
         <img class="w-12 h-12" src="./images/concept.png" alt="">
@@ -208,7 +208,7 @@
     <div class="w-5/6 mx-auto mt-12 grid grid-cols-1 gap-6 lg:grid-cols-4           md:grid-cols-2 ">
 
       <div class="col-span-1 border-2 rounded-2xl md:col-span-2 lg:col-span-3 ">
-        <div class="flex px-6 py-6">
+        <div class="flex flex-col-reverse px-6 py-6 md:flex-row lg:flex-row">
           <img class="scale-75 lg:scale-100 md:scale-75 " src="./images/img1.png" alt="">
           <div class="lg:w-[440px] lg:h-44 sm:h-full sm:container pl-6">
           <h3 class="text-2xl font-extrabold">Commercial</h3>
@@ -222,17 +222,17 @@
         <img class="h-full w-full object-cover rounded-2xl" src="./images/img2.png" alt="">
       </div>
 <!-- hidden card for desktop -->
-      <div class="px-6 py-6 border-2 rounded-2xl md:hidden  lg:hidden">
+      <div class="px-6 py-6 border-2 rounded-2xl  lg:hidden">
         <img class="h-full w-full object-cover rounded-2xl" src="./images/img5.png" alt="">
       </div>
 
       <div class="px-6 py-6 border-2 rounded-2xl ">
-        <img class="" src="./images/img3.png" alt="">
+        <img class="object-fill h-48 w-96" src="./images/img3.png" alt="">
       </div>
 
-      <div class="col-span-2 border-2 rounded-2xl">
-        <div class="flex px-6 py-6">
-          <img class="scale-75 lg:scale-100 md:scale-75 " src="./images/img4.png" alt="">
+      <div class="col-span-1 border-2 rounded-2xl md:col-span-2 lg:col-span-2">
+        <div class="flex flex-col-reverse px-6 py-6 md:flex-row lg:flex-row">
+          <img class="scale-75 lg:scale-100 md:scale-75  " src="./images/img4.png" alt="">
           <div class="lg:w-[440px] lg:h-44 sm:h-full sm:container pl-6">
           <h3 class="text-2xl font-extrabold">Commercial</h3>
           <p>The barn house captivates with its blend of rustic charm and modern.</p>
@@ -240,8 +240,11 @@
           </div>
         </div>
       </div>
-      <div class="px-6 py-6 border-2 rounded-2xl ">
-        <img class="ms-auto" src="./images/img5.png" alt="">
+      <div class="px-6 py-6 border-2 rounded-2xl object-fill">
+        <img class="object-fill h-48 w-96 lg:ms-auto" src="./images/img5.png" alt="">
+      </div>
+      <div class=" px-6 py-6 border-2 rounded-2xl  invisible md:visible lg:hidden">
+        <img class="object-fill h-48 w-96" src="./images/img3.png" alt="">
       </div>
       
     </div>
